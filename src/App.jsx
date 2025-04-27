@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='flex flex-col w-full h-full'>
+    <div className='flex flex-col w-full h-full gap-2'>
       <ResponsiveAppBar/>
       <Index/>
     </div>
