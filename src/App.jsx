@@ -10,6 +10,7 @@ function App() {
   return (
     <div className='flex flex-col w-full h-full gap-2'>
       <ResponsiveAppBar/>
+      <h>Job portal</h>
       <Index/>
     </div>
   )
